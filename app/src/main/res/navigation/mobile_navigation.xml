@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_mins">
+
+    <fragment
+        android:id="@+id/navigation_mins"
+        android:name="com.cse3200.midterm_timers.ui.hours.HoursFragment"
+        android:label="@string/title_mins"
+        tools:layout="@layout/fragment_mins" />
+
+    <fragment
+        android:id="@+id/navigation_hours"
+        android:name="com.cse3200.midterm_timers.ui.mins.MinsFragment"
+        android:label="@string/title_hours"
+        tools:layout="@layout/fragment_hours" />
+
+    <fragment
+        android:id="@+id/navigation_seconds"
+        android:name="com.cse3200.midterm_timers.ui.seconds.SecondsFragment"
+        android:label="@string/title_seconds"
+        tools:layout="@layout/fragment_seconds" />
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_mins"
+        android:title="@string/title_mins" />
+
+    <item
+        android:id="@+id/navigation_hours"
+        android:title="@string/title_hours" />
+
+    <item
+        android:id="@+id/navigation_seconds"
+        android:title="@string/title_seconds" />
+
+</menu>

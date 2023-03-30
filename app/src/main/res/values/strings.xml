@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">midterm_timers</string>
+    <string name="title_mins">Minutes</string>
+    <string name="title_hours">Hours</string>
+    <string name="title_seconds">Seconds</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+</resources>
